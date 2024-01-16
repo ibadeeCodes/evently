@@ -63,6 +63,14 @@ export default async function Home(
           totalPages={events?.totalPages}
         /> */}
       </section>
+
+      <section id="create" className="wrapper my-8 flex flex-col gap-8 md:gap-12">
+        <Button size="lg" asChild className="button w-full sm:w-fit">
+          <Link href="/events/create">
+            Create Event
+          </Link>
+        </Button>
+      </section>
     </>
   )
 }
