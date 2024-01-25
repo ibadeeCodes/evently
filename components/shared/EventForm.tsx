@@ -64,8 +64,7 @@ const EventForm = ({ userId, type, event, eventId }: EventFormProps) => {
 
             uploadedImageUrl = uploadedImages[0].url
         }
-
-        console.log('ahahah')
+        
         if (type === 'Create') {
             console.log('create block')
             try {
